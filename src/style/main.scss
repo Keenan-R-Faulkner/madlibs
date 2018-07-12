@@ -2,11 +2,13 @@
     background-color: rgba(207, 207, 207, 0.007);
     display: grid;
     justify-items: center;
-    align-items: center;
-    grid-template-rows: [header-s] 218px [header-e card-s] 994px [card-e]; 
+    // align-items: center;
+    grid-template-rows: [header-s] 218px [header-e card-s] minmas(736px, 994px) [card-e]; 
 }
 
-
+.header {
+    align-self: center;
+}
 
 .card {
     height: 736px;
@@ -41,3 +43,4 @@
     &__number{
         grid-column: number-s/number-e;
     }
+}    
