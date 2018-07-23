@@ -8,7 +8,6 @@
     font-size: 22px;
     text-align: center;
     justify-self: center;
-    transform: translateY(50%);
 }
 
 .gray {
@@ -98,16 +97,18 @@
     }
 
     button:focus {
-        outline: none;
+        outline: none;   
     }
 
     &__generate {
         background-color: #00cb79;
+        transform: translateY(-300px);
         @include button;
     }
 
     &__clear {
         background-color: #45b0e5;
+        transform: translateY(50%);
         @include button;
     }
 
