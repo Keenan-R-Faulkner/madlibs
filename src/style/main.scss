@@ -11,6 +11,14 @@
     transform: translateY(50%);
 }
 
+.gray {
+    background: #b3b3b3;
+}
+
+.green {
+    background: #00cb79;
+}
+
 .home {
     position: relative;
     background-color: rgba(207, 207, 207, 0.007);
@@ -155,7 +163,7 @@
     }
     &__number{
         grid-column: number-s/number-e;
-        background-color: #00cb79;
+       
         color: white;
         border-radius: 50%;
         font-size: 18px;
